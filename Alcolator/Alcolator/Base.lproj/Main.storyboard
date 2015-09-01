@@ -32,7 +32,7 @@
                                 <rect key="frame" x="241" y="58" width="118" height="31"/>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGk-24-Dwl">
-                                <rect key="frame" x="217" y="96" width="125" height="30"/>
+                                <rect key="frame" x="231" y="96" width="125" height="30"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <state key="normal" title="Calculate">
                                     <color key="titleColor" red="1" green="0.017294435732090996" blue="0.26038561567771068" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,7 +43,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="nGk-24-Dwl" firstAttribute="centerX" secondItem="m02-qy-4Ib" secondAttribute="centerX" constant="-20.5" id="9Du-64-qcq"/>
                             <constraint firstItem="mUy-XP-Y0V" firstAttribute="top" secondItem="nGk-24-Dwl" secondAttribute="bottom" constant="15" id="9U7-16-qP8"/>
+                            <constraint firstItem="nGk-24-Dwl" firstAttribute="centerX" secondItem="m02-qy-4Ib" secondAttribute="centerX" constant="-20.5" id="JGM-t5-Cul"/>
                             <constraint firstItem="m02-qy-4Ib" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="LGf-IS-hoC"/>
                             <constraint firstItem="gv4-0c-4Kk" firstAttribute="top" secondItem="m02-qy-4Ib" secondAttribute="bottom" constant="8" id="NaZ-oF-Bb5"/>
                             <constraint firstItem="nGk-24-Dwl" firstAttribute="centerX" secondItem="gv4-0c-4Kk" secondAttribute="centerX" constant="-20.5" id="WL3-EE-gjE"/>
